@@ -1,0 +1,7 @@
+@font-face {
+  font-family: "hot_chocolate";
+  src: url("gomarice_hot_chocolate-webfont.woff2") format("woff2"),
+    url("gomarice_hot_chocolate-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
