@@ -7,3 +7,7 @@ function classToggle() {
 document
   .querySelector(".navbar__link-toggle")
   .addEventListener("click", classToggle);
+
+window.onload = function () {
+  document.querySelector("#loader").style.display = "none";
+};
