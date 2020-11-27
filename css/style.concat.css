@@ -109,11 +109,12 @@ a:visited {
     color: #ffffff; }
 
 .heading-popup {
-  font-size: 6.5rem;
-  width: max-content; }
+  font-size: 6.5rem; }
   @media (max-width: 75em) {
     .heading-popup {
       font-size: 5rem; } }
+  .heading-popup--contact {
+    width: max-content; }
 
 .paragraph {
   font-family: "Didact Gothic", sans-serif;
@@ -617,13 +618,12 @@ a:visited {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 0 1rem;
-    height: 50%; }
+    padding: 0 1rem; }
     @media (max-width: 56.25em) {
       .footer__address, .footer__phone, .footer__social {
         flex-direction: row;
-        width: 50%;
-        justify-content: flex-start;
+        width: 100%;
+        justify-content: center;
         align-items: center;
         padding: 2.5rem 0; } }
   .footer__social {
@@ -632,7 +632,7 @@ a:visited {
       color: black; }
     @media (max-width: 56.25em) {
       .footer__social {
-        width: 50%;
+        width: 100%;
         justify-content: space-evenly; } }
 
 .footer .fab {
